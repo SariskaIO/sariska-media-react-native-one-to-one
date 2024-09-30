@@ -10,7 +10,7 @@ export const getToken = async (sessionId, user = {}) => {
         },
         body: JSON.stringify({
             sessionId,
-            apiKey: "24fd6f92d6d017492e3e98e334ebafc76dd350bb93a0729d38", // enter your API key
+            apiKey: "your api key", // enter your API key
             user
         })
     };
